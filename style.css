@@ -36,4 +36,5 @@ blockquote i {
     top: 50%;
     transform: translateY(-50%);
     font-size: .8rem;
+    cursor: pointer;
 }

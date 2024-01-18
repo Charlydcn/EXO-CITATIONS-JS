@@ -1,0 +1,39 @@
+body {
+    background-color: #f3f3f3;
+}
+
+#quotes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+blockquote {
+    background-color: white;
+    padding: 1rem 2rem;
+    width: fit-content;
+    border: 1px solid rgb(0 0 0 / .2);
+    border-radius: .5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: relative;
+}
+
+blockquote p {
+    margin:0 0 3rem;
+    font-style: italic;
+}
+
+blockquote footer {
+    position: absolute;
+    bottom:1rem;
+    right: 1rem;
+    font-size:.8rem;
+}
+
+blockquote i {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: .8rem;
+}
